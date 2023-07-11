@@ -1,11 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+    <title>Organic Oasis</title>
 </head>
 <body>
-    
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="#">Organic Oasis</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Organic Oasis</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Plants Detail</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <!-- <input type="text" placeholder="Search..."> -->
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <video autoplay loop muted  src="./forest.mp4" width="100%"></video>
+    <a href="#" id="btn"><input class="btn" type="button" value="Get Started"></a>
+
+    <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <i class="fab fa-slack"></i>
+              <span class="logo_name">Organic Oasis</span>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Company</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Get started</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Services</li>
+              <li><a href="#">App design</a></li>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Logo design</a></li>
+              <li><a href="#">Banner design</a></li>
+            </ul>
+            <ul class="box input-box">
+              <li class="link_name">Subscribe</li>
+              <li><input id="sub" type="email" placeholder="Enter your email"></li>
+              <li><input type="button" value="Subscribe"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2023 <a href="#">Organic Oasis.</a>All rights reserved</span>
+            <span class="policy_terms">
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms & condition</a>
+            </span>
+          </div>
+        </div>
+      </footer>
+    <script src="script.js"></script>
 </body>
 </html>
