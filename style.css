@@ -183,7 +183,7 @@ nav .nav-bar .logo a{
     width: 300px;
     display: flex;
     align-items: center;
-    background-color: var(--nav-color);
+    background-color: var(--search-bar);
     padding: 3px;
     border-radius: 6px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
@@ -240,9 +240,10 @@ body.dark .search-field i{
 }
 
 .btn{
-    display: flex;
-    justify-content: center;
-    margin-left: 43%;
+    position: absolute;
+    transform: translate(-50%, -10%);
+    top: 90%;
+    left: 50%;
     border: none;
     background-color: #a3b18a;
     border-radius: 30px;
@@ -251,6 +252,10 @@ body.dark .search-field i{
     font-size: large;
     font-weight: 520;
     cursor: pointer;
+}
+
+.vid{
+    position: relative;
 }
 
 #btn{
