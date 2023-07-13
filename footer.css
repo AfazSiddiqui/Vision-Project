@@ -7,7 +7,7 @@
 }
 :root{
   --txt-color: #fff;
-  --subtxt-color: #AFAFB6;
+  /* --subtxt-color: #AFAFB6; */
   --bg-color: #2d6a4f;
 }
 body{
@@ -17,7 +17,7 @@ body{
 body.dark{
   --bg-color:#18191A;
   --txt-color: #fff;
-  --subtxt-color: #AFAFB6;
+  /* --subtxt-color: #AFAFB6; */
 }
 footer{
   /* position: fixed; */
