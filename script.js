@@ -1,6 +1,7 @@
-const body = document.querySelector("body"),
+const body = document.querySelector('body'),
       nav = document.querySelector("nav"),
       footer = document.querySelector('footer');
+      ('container');
       modeToggle = document.querySelector(".dark-light"),
       searchToggle = document.querySelector(".searchToggle"),
       sidebarOpen = document.querySelector(".sidebarOpen"),
