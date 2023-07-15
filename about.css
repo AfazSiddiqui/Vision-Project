@@ -23,6 +23,7 @@
     justify-content: center;
     width: 100%;
     margin-top: 7%;
+    margin-bottom: 1%;
     color: #283618;
 }
 .about:hover{
@@ -60,4 +61,23 @@
     justify-content: center;
     color: #081c15;
     font-weight: bold;
+}
+
+@media(min-width: 320px){
+    .about{
+        margin-top: 10%;
+    }
+
+    #content{
+        padding-left: 35px;
+    }
+}
+@media(max-width: 768px){
+    .about{
+        margin-top: 20%;
+    }
+
+    #content{
+        padding-left: 25px;
+    }
 }
