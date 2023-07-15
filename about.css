@@ -8,8 +8,10 @@
 .container{
     /* position: relative; */
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    background-color: #a3b18a;
+
+    background-color: #9faa8c;
 }
 
 .container .dark{
@@ -17,6 +19,9 @@
 }
 
 .about{
+    display: flex;
+    justify-content: center;
+    width: 100%;
     margin-top: 7%;
     color: #283618;
 }
@@ -27,20 +32,23 @@
 
 #content{
     /* position: absolute; */
-    transform: translate(0);
-    top: 5%;
+    /* transform: translate(0); */
+    /* top: 5%;
     left: 10%;
-    right: 3%;
+    right: 3%; */
     display: flex;
     justify-content: center;
-    margin-top: 15%;
-    padding-right: 60px;
+    /* margin-top: 15%; */
+    /* margin: 0 40px 0px 40px; */
+    padding-right: 40px;
 }
 
 .para{
     font-size: large;
     font-weight: 400;
     margin-bottom: 5%;
+    text-align: justify;
+    width: 1000px;
 }
 
 .italic{
